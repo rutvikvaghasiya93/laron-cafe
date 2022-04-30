@@ -2159,6 +2159,15 @@ button.mfp-close:before {
 	margin-right: -100px;
 	text-align: right
 }
+.lrn-about-image:before {
+	content: "";
+    position: absolute;
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/landing-row-background-image.png?id=1092);
+    height: 620px;
+    width: 820px;
+    top: -160px;
+    left: -150px;
+}
 
 .lrn-about-image img {
 	max-width: 686px
@@ -5524,7 +5533,8 @@ small {
 	width: 100%;
 	height: 100%;
 	border-radius: 100%;
-	-webkit-border-radius: 100%
+	-webkit-border-radius: 100%;
+	object-fit: cover;
 }
 
 .lrn-testimonials-carousel .slide-item .desc {
