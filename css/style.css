@@ -5619,3 +5619,35 @@ small {
 		font-size: 14px
 	}
 }
+
+
+/*-------------- Landing page css ----------------*/
+.landing-page .wrapper {
+	padding-top: 90px;
+}
+.lrn-page-layout {
+	background-color: #f2f2f3;
+	padding: 80px 0 0;
+}
+.lrn-page-layout .lrn-section-title h2 {
+	color: #000;
+}
+.layout-image a {
+	text-decoration: none;
+}
+.layout-image h3 {
+	color: #000;
+}
+.lrn-purchase-section {
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.lrn-purchase-section .lrn-description p {
+	font-size: 25px;
+    color: #fff;
+    line-height: 37px;
+    margin: 0;
+    padding: 70px 0;
+}
